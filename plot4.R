@@ -25,7 +25,7 @@ grp <- as.numeric(sub_gap$Global_reactive_power,rm.na=TRUE)
 
 par(mfcol=c(2,2))
 #plot topleft
-plot(plot_varx,plot_vary, type= "l",xlab= "", ylab = "Global Active Power")
+plot(plot_varx,plot_gap, type= "l",xlab= "", ylab = "Global Active Power")
 
 #plot bottomleft
 plot(plot_varx,sub_met_1,type = "l",xlab=" ", ylab="Enegry sub metering")
